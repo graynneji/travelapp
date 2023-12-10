@@ -9,7 +9,7 @@ const Navbar = () => {
     <nav className=" flexBetween max-container padding-container relative z-30 py-5">
         
      <Link href="/">
-       <h1 className="font-bold text-2xl text-teal-500">Travel</h1> 
+       <h1 className="font-bold text-2xl text-green-500">Travel</h1> 
      </Link>
        <ul className="hidden h-full gap-12 lg:flex">
         {NAV_LINKS.map((link)=>(
